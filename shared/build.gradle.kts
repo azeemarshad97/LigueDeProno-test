@@ -20,7 +20,8 @@ kotlin {
         val commonMain by getting
         val commonTest by getting {
             dependencies {
-                implementation(kotlin("test"))
+                implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.0")
+//                implementation(kotlin("test"))
             }
         }
         val androidMain by getting

@@ -4,6 +4,7 @@ class Greeting {
     private val platform: Platform = getPlatform()
 
     fun greeting(): String {
-        return "Hello, ${platform.name}!"
+        return "LIGUE DES PRONOS: Le Commencement :) \n " +
+                "Je me rappellerai de vous quand je serai riche <3"
     }
 }
